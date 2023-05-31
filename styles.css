@@ -1,0 +1,30 @@
+#taskList {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+.task {
+    list-style: none;
+    border: 1px solid #ffffff25;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.taskIterator {
+    position: absolute;
+    right: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    opacity: 0.25;
+}
+
+.no-content {
+    opacity: 0.5;
+}
